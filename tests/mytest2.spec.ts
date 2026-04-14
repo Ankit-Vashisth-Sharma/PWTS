@@ -10,6 +10,6 @@ test("Verify page Url",async({page})=>{
     console.log(page.title());
     
     await expect(page).toHaveURL("https://testautomationpractice.blogspot.com/")
-    
+
 
 })
